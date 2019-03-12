@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #002359;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+li {
+    justify-content: space-between;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 30px;
+    color: white;
+    justify-content: space-between;
+}
+
+.lupa {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.logo {
+    width: 90px;
+    height: 100px;
+    padding-top: 13px;
+    padding-left: 30px;
+}
+
+#banner {
+    background-image: url(apartment-architectural-design-architecture-1878715.jpg);
+    background-color: #cccccc; 
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+h1,h2,h3 {
+    padding-top: 30px;
+}
+
+
+.titulo {
+    text-align: center;
+    align-self: center;
+    
+    padding-top: 60px;
+    
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Russo One', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+
+h3 {
+    font-size: 40px;
+    font-family: 'Russo One', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #ffffff;
+    height: 70px;
+}
+
+.botao {
+    width: 300px;
+    height: 200px;
+    padding-left: 620px;
+}
+
+
