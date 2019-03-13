@@ -82,7 +82,7 @@ h1 {
     color: #ffffff;
 }
 
-h2 {
+.titulo > h2 {
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
@@ -106,4 +106,83 @@ h3 {
     padding-left: 620px;
 }
 
+#funcionalidades {
+    display: flex;
+    height: 550px;
+    justify-content: center;
+}
 
+.div1 {
+    margin-left: 10px;
+    width: 500px;
+}
+
+.div6 {
+    margin-right: 10px;
+}
+
+.div5 {
+    margin-top: 190px;
+}
+
+.div2 {
+    margin-top: 200px;
+}
+
+.div4 {
+    margin-top: 355px;
+}
+
+.div3 {
+    margin-top: 355px;
+}
+
+.image {
+    margin-top: 20px;
+}
+
+div > h2 {
+    font-family: 'Russo One', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: #ffce77;
+}
+
+div > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+
+#quemsomos {
+    display: flex;
+    justify-content: space-around;
+    background-color: #003433;
+    height: 350px;
+}
+
+#quemsomos > img {
+    width: 400px;
+    height: 300px;
+    margin-top: 25px;
+    border-style: solid;
+    border-color: white;
+}
+
+.txt {
+    display: block;
+    margin-left: 10px;
+    width: 500px;
+}
+
+.txt > h2 {
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.txt > p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#local > iframe {
+    margin-top: 25px;
+}
