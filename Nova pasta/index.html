@@ -80,17 +80,78 @@
                 <img src="imagefb.jpg" alt="Equipe" />
         </section>
         <section id="planos">
-            <section>
+            <section class="plano">
                 <h3>Plano básico</h3>
                 <h2>Gratuito</h2>
-                <p>1 funcionário, suporte de até 48h</p>
+                <p>1 funcionário, 
+                    <br />
+                    suporte de até 48h</p>
             </section>
-            <section>
+            <section class="plano">
                     <h3>Plano fácil</h3>
                     <h2>R$29,90/mês</h2>
-                    <p>Até 5 funcionários, suporte de até 24h</p>
+                    <p>Até 5 funcionários,
+                        <br />
+                        suporte de até 24h</p>
+                </section>
+                <section class="plano">
+                    <h3>Plano vantagem</h3>
+                    <h2>R$149,90/mês</h2>
+                    <p>Até 50 funcionários,
+                        <br />
+                         suporte de até 12h</p>
+                </section>
+                <section class="plano">
+                    <h3>Plano mega vantagem</h3>
+                    <h2>R$299,90/mês</h2>
+                    <p>Até 500 funcionários,
+                        <br />
+                        suporte de até 2h</p>
                 </section>
         </section>
+        <section id="cadastro">
+            <div class="mari">
+
+                <h2>Tenha o controle do Ponto Digital, cadastre-se</h2>
+                
+                
+                <div class="grupo1">
+                    
+                    <img class="img1" src="Sem Título-1.jpg" alt="play">
+                    <img class="img2" src="Sem Título-1.jpg" alt="play">
+                </div>
+                <div class="grupo2">
+                    
+                    <img class="img3" src="Sem Título-1.jpg" alt="play">
+                    <img class="img4" src="Sem Título-1.jpg" alt="play">
+                </div>
+            </div>
+            <div id="formulario">
+                <form method="GET" action="index.html">
+                    <fieldset>
+                        <label class="nome" for="nome">Nome Completo</label> <!--NOME-->
+                        <br />
+                        <input name="nome" id="nome" type="text" maxlength="50" minlength="3" required/>
+                        <br />
+                        <label class="telefone" for="telefone">Telefone</label> <!--TELEFONE-->
+                        <br />
+                        <input name="telefone" id="telefone" type="tel" required />
+                        <br />
+                        <label class="email" for="email">E-mail</label><!--EMAIL-->
+                        <br />
+                        <input name="email" id="email" type="email" required />
+                        <br />
+                        <label class="senha" for="senha">Senha</label>
+                        <br />
+                        <input name="senha" id="senha" type="password" />
+                        <br />
+                        <input id="btn_submit" type="submit" value="Cadastrar">
+                    </fieldset>
+                </div>
+                </form>
+                
+        </section>
+
     </main>
 </body>
 </html>

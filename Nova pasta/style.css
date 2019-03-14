@@ -186,3 +186,188 @@ div > p {
 #local > iframe {
     margin-top: 25px;
 }
+
+#planos {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6badb9;
+    height: 330px;
+    flex-wrap: wrap;
+}
+
+.plano > h3 {
+    color: black;
+    font-size: 20px;
+    height: 45px;
+    text-align: center;
+}
+
+.plano {
+    font-family: 'Russo One', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    height: 250px;
+}
+
+.plano > h2 {
+    font-size: 40px;
+    height: 100px;
+}
+
+.plano {
+    align-self: center;
+    width: 350px;
+}
+
+#cadastro {
+    display: flex;
+    justify-content: space-around;
+    height: 650px;
+    background-color: #f0eaea;
+}
+
+.grupo1 {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.grupo2 {
+    display: block;
+}
+
+.mari {
+    display: block;
+    position: relative;
+    left: 100px;
+}
+
+.img1 {
+    padding-right: 70px;
+}
+
+.img3 {
+    padding-right: 70px;
+}
+
+.mari > h2 {
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 #246d7a,
+         1px -1px 0 #246d7a,
+        -1px 1px 0 #246d7a,
+         1px 1px 0 #246d7a;
+}
+
+#cadastro > #formulario {
+    align-self: center;
+    position: relative;
+    right: 130px;
+}
+
+fieldset {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 25px;
+    background-color: #246d7a;
+}
+
+#formulario label.nome
+{
+  position:absolute;
+  left:19px;
+  top: 23px;
+  margin-right:5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff;
+}
+
+#formulario input#nome
+{
+  background-color:#ffffff;
+  position:absolute;
+  left:45px;
+  top:63px;
+  width:400px;
+  height: 40px;
+  border: solid #246d7a;
+}
+
+#formulario input#telefone
+{
+  background-color:#ffffff;
+  position:absolute;
+  left:45px;
+  top:163px;
+  width:400px;
+  height: 40px;
+  border: solid #246d7a;
+}
+
+#formulario input#email
+{
+  background-color:#ffffff;
+  position:absolute;
+  left:45px;
+  top:263px;
+  width:400px;
+  height: 40px;
+  border: solid #246d7a;
+}
+
+#formulario input#senha
+{
+  background-color:#ffffff;
+  position:absolute;
+  left:45px;
+  top:363px;
+  width:400px;
+  height: 40px;
+  border: solid #246d7a;
+}
+
+#formulario input#btn_submit
+{
+  border: solid #246d7a;
+  position:absolute;
+  bottom: 0.5em;
+  right:50px;
+  background-color: white;
+  width: 200px;
+  height: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+}
+
+#formulario label.telefone
+{
+  position:absolute;
+  left:19px;
+  top: 123px;
+  margin-right:5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff;
+}
+
+#formulario label.email
+{
+  position:absolute;
+  left:19px;
+  top: 223px;
+  margin-right:5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff;
+}
+
+#formulario label.senha
+{
+  position:absolute;
+  left:19px;
+  top: 323px;
+  margin-right:5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff;
+}
+
