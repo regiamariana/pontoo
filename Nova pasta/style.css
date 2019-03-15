@@ -371,3 +371,136 @@ fieldset {
   color: #ffffff;
 }
 
+#depoimentos {
+    height: 630px;
+    display: flex;
+}
+
+#depoimentos > h2 {
+    font-family: 'Russo One', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    position: relative;
+    left: 150px;
+    color: #ffce77;
+}
+
+#FAQ {
+    width: 540px;
+    height: 400px;
+    background-color: #ecebeb;
+    position: relative;
+    top: 160px;
+    right: 130px;
+
+}
+
+.cara {
+    background-color: white;
+    position: relative;
+    left: 10px;
+    top: 35px;
+    align-self: center;
+    width: 480px;
+    height: 40px;
+
+}
+
+.cara p {
+    color: #1d58af;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+#comentarios {
+    display: block;
+    align-self: center;
+    padding-left: 70px;
+}
+
+
+.imgg1 {
+    padding-left: 100px;
+}
+
+#comentarios > input {
+    width: 455px;
+    height: 40px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+#sac {
+    width: 100%;
+    height: 300px;
+    background-color: #ffce77;
+}
+
+fieldset {
+    width: 300px;
+    height: 20px;
+    background-color: #ffce77;
+    border: none;
+}
+
+#orelha input#nome {
+    width:400px;
+  height: 40px;
+  border: solid #246d7a;
+}
+
+#orelha input#email {
+    width:400px;
+  height: 40px;
+  border: solid #246d7a;
+}
+
+#orelha input#telefone {
+    width:400px;
+  height: 40px;
+  border: solid #246d7a;
+}
+
+
+
+.sofrencia {
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    top: 20px;
+}
+
+.antiaderencia {
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    bottom: 20px;
+}
+
+.malemolencia {
+    display: flex;
+    position: relative;
+    left: 500px;
+    top: 20px;
+    bottom: 60px;
+    align-items: center;
+    padding-left: 450px;
+
+}
+
+.clase {
+    position: relative;
+    left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
